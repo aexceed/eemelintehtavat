@@ -27,7 +27,9 @@ Kokeilin viel채 muutaman kerran virtuaalikoneen sis채ll채 mutta ei tullut mit채�
 Klo 23.00 vihdoin sain taisteltua powershellin kanssa tarpeeksi pitk채채n ja se rupesi asentamaan vaadittavaa kolmea konetta.
 a) b) ja c)
 ![image](https://user-images.githubusercontent.com/129611461/229376696-71bdccdc-de5e-44a1-b152-ef1c4fcc20a5.png)
+
 d)
+
 ![image](https://user-images.githubusercontent.com/129611461/229377179-a7d7a661-60b7-4a60-a4a9-119d954ddca8.png)
 ![image](https://user-images.githubusercontent.com/129611461/229377402-ec44c9f6-8d27-4b8c-829a-6fb25bbedc33.png)
 ![image](https://user-images.githubusercontent.com/129611461/229377446-2728ca87-8d00-440d-bdf3-c481d7420bb2.png)
