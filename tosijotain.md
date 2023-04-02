@@ -41,3 +41,5 @@ e) infraa koodina
 
 ![image](https://user-images.githubusercontent.com/129611461/229378529-2016ac61-6e86-41df-a24c-fa8590ba4145.png)
 
+Lopetus klo 0.00
+
