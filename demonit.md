@@ -1,4 +1,11 @@
 # h2 Demonit
+
+Koneen tiedot:
+Windows 11 Home
+Prossu: i7-1165G7 @ 2.80GHz
+Näyttis: Intel Iris Xe integroitu
+RAM: 16 gt
+
 Aloitus 12.15
 
 x)
@@ -47,6 +54,8 @@ Demoni käynnistyi uudestaan kun ajoin komennon muuttuneella config tiedostolla:
 Mikään ei muuttunut joten demoni ei käynnistä itseään uudestaan:
 
 ![image](https://user-images.githubusercontent.com/129611461/230373740-27887dda-e473-4c2e-9c40-e51083a7b825.png)
+
+Lopetus 15.45
 
 Käyttämäni lähteet:
 
