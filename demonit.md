@@ -1,10 +1,10 @@
 # h2 Demonit
 
 Koneen tiedot:
-Windows 11 Home
-Prossu: i7-1165G7 @ 2.80GHz
-Näyttis: Intel Iris Xe integroitu
-RAM: 16 gt
+-Windows 11 Home
+-Prossu: i7-1165G7 @ 2.80GHz
+-Näyttis: Intel Iris Xe integroitu
+-RAM: 16 gt
 
 Aloitus 12.15
 
