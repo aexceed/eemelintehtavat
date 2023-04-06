@@ -44,10 +44,12 @@ Demoni käynnistyi uudestaan kun ajoin komennon muuttuneella config tiedostolla:
 
 ![image](https://user-images.githubusercontent.com/129611461/230374010-27468dab-b111-400d-9024-376e53238727.png)
 
-Mikään ei muuttunyt joten demoni ei käynnistä itseään uudestaa:
+Mikään ei muuttunut joten demoni ei käynnistä itseään uudestaan:
 
 ![image](https://user-images.githubusercontent.com/129611461/230373740-27887dda-e473-4c2e-9c40-e51083a7b825.png)
 
 Käyttämäni lähteet:
+
 https://terokarvinen.com/2018/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=salt%20ssh Luettu 6.4.2023
+
 https://terokarvinen.com/2018/secrets-in-salt-pillars/?fromSearch=salt Luettu 6.4.2023
