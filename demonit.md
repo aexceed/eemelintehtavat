@@ -1,4 +1,4 @@
-# h2 Demonit ![image](https://user-images.githubusercontent.com/129611461/230406604-0c9bdd45-2108-4d7c-bf64-3bf64ae7e0ad.png)
+# h2 Demonit 
 
 
 Koneen tiedot:
@@ -10,6 +10,8 @@ Prossu: i7-1165G7 @ 2.80GHz
 Näyttis: Intel Iris Xe integroitu
 
 RAM: 16 gt
+
+
 
 Aloitus 12.15
 
