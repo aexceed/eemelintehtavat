@@ -74,4 +74,4 @@ https://terokarvinen.com/2018/pkg-file-service-control-daemons-with-salt-change-
 
 https://terokarvinen.com/2018/secrets-in-salt-pillars/?fromSearch=salt Luettu 6.4.2023
 
-Kuva: https://oldschool.runescape.wiki/w/Black_demon_mask 
+Kuva: https://oldschool.runescape.wiki/w/Black_demon_mask#/media/File:Black_demon_mask_detail.png
