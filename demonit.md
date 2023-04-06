@@ -62,6 +62,8 @@ Mikään ei muuttunut joten demoni ei käynnistä itseään uudestaan:
 
 ![image](https://user-images.githubusercontent.com/129611461/230373740-27887dda-e473-4c2e-9c40-e51083a7b825.png)
 
+
+
 Lopetus 15.45
 
 Käyttämäni lähteet:
