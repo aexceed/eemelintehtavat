@@ -51,3 +51,8 @@ Kaikki mitä kissani meni äsken vahingossa tallentamaan on poissa.
 d) Tutkitaan logia kirjoittamalla git log --patch
 ![image](https://user-images.githubusercontent.com/129611461/232247787-0634ee87-e18b-492e-8425-14dc869a44f7.png)
 Näkyy toimivan alhaalta ylöspäin eli heti alhaalla on kun loin repon tällä windowsilla ja tunnukset eivät ole selvästikkään kunnossa kun on noin epämääräinen sähköposti. Seuraavaksi näkyy eemeli virtuaalikoneella muutokset jossa taas on kunnossa authorin nimi ja sähköposti koska laitoin ne. Muutoksissa näkyy että lisäsin tekstiä README.md tiedostoon. Muutoksissa ei näy sitä kuinka kissa hyppäsi näppikselle ja tallensi muutokset jotka ehdin poistaa reset komennolla.
+
+Lopetus 22.00
+
+Lähteet:
+https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/ Luettu 15.4.2023
