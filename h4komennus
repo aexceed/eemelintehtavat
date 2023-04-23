@@ -1,0 +1,17 @@
+# h3 komennus
+
+Koneen tiedot:
+
+Windows 11 Home
+
+Prossu: i7-1165G7 @ 2.80GHz
+
+Näyttis: Intel Iris Xe integroitu
+
+RAM: 16 gt
+
+Aloitus klo 18.20
+
+# a)
+
+Etsin kansion missä koneeni olivat piilossa ja oikeata hiiren puolta klikkaamalla otin powershellin auki kyseisessä kansiossa. Komennot ./vagrant up ja sen jälkeen ./vagrant ssh tmaster että pääsen sisään. tmaster koneella menin /srv/salt/ kansioon ja kirjoitin nanolla hello.sh scriptin.
