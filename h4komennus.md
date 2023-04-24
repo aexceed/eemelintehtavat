@@ -65,6 +65,7 @@ Ajoin tilan ei toiminut.
 TLDR:
 En tiedä en ymmärrä loppui motivaatio. Lopetan oman hyvinvointini vuoksi tähän tämän viikon tehtävät. Illalla oman luetun ymmärtämisen virheen takia koitin ajaa scriptejä ja etsin 2 tuntia miksi en saa niitä ajettua vaikka eihän niitä edes tarvinnut. VItutus huipussa ei pysty pitää tehdä muitakin kursseja välillä.
 
+Lopetus 15.05
 
 # Lähteet:
 
