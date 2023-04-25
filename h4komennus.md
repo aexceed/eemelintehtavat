@@ -63,13 +63,13 @@ Ajoin tilan ei toiminut.
 ![image](https://user-images.githubusercontent.com/129611461/233990355-e0e31933-b931-4e6a-bca2-46b4d875151f.png)
 
 TLDR:
-En tiedä en ymmärrä loppui motivaatio. Lopetan oman hyvinvointini vuoksi tähän tämän viikon tehtävät. Illalla oman luetun ymmärtämisen virheen takia koitin ajaa scriptejä ja etsin 2 tuntia miksi en saa niitä ajettua vaikka eihän niitä edes tarvinnut. VItutus huipussa ei pysty pitää tehdä muitakin kursseja välillä.
+En tiedä en ymmärrä loppui motivaatio. Lopetan oman hyvinvointini vuoksi tähän tämän viikon tehtävät. Illalla oman luetun ymmärtämisen virheen takia koitin ajaa scriptejä ja etsin 2 tuntia miksi en saa niitä ajettua vaikka eihän niitä edes tarvinnut.
 
 
 
 Lopetus 15.05
 
-ps. Oikeita vastauksia arvioituani täytyy todeta että eihän sitä vittu muistanu mitään mitä tunnilla oltiin ilmeisesti käyty, hyvä minä. Voisi tehdä nämä oikein joku päivä kun kerkeää
+ps. Oikeita vastauksia arvioituani täytyy todeta että eihän sitä muistanu mitään mitä tunnilla oltiin ilmeisesti käyty, hyvä minä. Voisi tehdä nämä oikein joku päivä kun kerkeää
 
 # Lähteet:
 
