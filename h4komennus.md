@@ -52,6 +52,26 @@ Koitin ajella tiedostoja en tiedä miksi, kuuluiko se edes tehtävän antoon mut
 
 ![image](https://user-images.githubusercontent.com/129611461/233985720-05db6d21-0f44-4dac-be47-99a94a70b2b5.png)
 
+Yritys part 2
+
+Ympäristö oli jotenkin hajonnut joten tein uudestaan kaiken tähän pisteeseen saakka. Sls tiedostoonkin löytyi syntaxi kuntoon tiedostosijaintien suhteen, aikaisemmin olin yrittänyt siirtää koko kansiota sls tiedostossa mutta kun muutin yksittäisiksi tiedostoiksi nii rupesikin hommat pelittämään.
+
+![image](https://user-images.githubusercontent.com/129611461/234329607-899a9342-2add-4ce4-b219-3ec6ecdb406c.png)
+
+Ja sitten syötetään state.apply avulla orjille.
+
+![image](https://user-images.githubusercontent.com/129611461/234329508-f3afdf9f-6e9e-4d2b-a6b2-178bfee91b9e.png)
+
+Kokeillaan ajaa tmasterilta cmd.run komennolla.
+
+![image](https://user-images.githubusercontent.com/129611461/234334879-0b8b59f4-6424-4cd2-a65f-d4e9f248bffd.png)
+
+Se onnistui ja sitten python scripti.
+
+![image](https://user-images.githubusercontent.com/129611461/234338312-5ae88d3a-a0cd-4245-986c-4e4313ea1f96.png)
+
+Onnistui, ei onnistunut? Miten sen nyt ottaa en ihan ymmärtänyt virhetulostusta. Syntax erroria ei kyllä scriptistä löydy sen verran pythoni taittuu. Netti osasi kertoa että voi johtua jotenkin jostain pythonin versioista ja siihen liittyen? 
+
 # d)
 
 Tein /srv/salt/ uuden kansion nimeltä asenna ja sinne tälläisen sls tiedoston.
@@ -62,14 +82,30 @@ Ajoin tilan ei toiminut.
 
 ![image](https://user-images.githubusercontent.com/129611461/233990355-e0e31933-b931-4e6a-bca2-46b4d875151f.png)
 
-TLDR:
-En tiedä en ymmärrä loppui motivaatio. Lopetan oman hyvinvointini vuoksi tähän tämän viikon tehtävät. Illalla oman luetun ymmärtämisen virheen takia koitin ajaa scriptejä ja etsin 2 tuntia miksi en saa niitä ajettua vaikka eihän niitä edes tarvinnut.
+Part 2:
 
+Latasin micron komennolla sudo apt install micro.
 
+![image](https://user-images.githubusercontent.com/129611461/234343058-b97e2111-71e9-4f61-80d0-8f574471406d.png)
 
-Lopetus 15.05
+Kysyin whereis micro komennolla missä se on ja siirsin sen cp komennolla /srv/salt/hello/ kansioon.
 
-ps. Oikeita vastauksia arvioituani täytyy todeta että eihän sitä muistanu mitään mitä tunnilla oltiin ilmeisesti käyty, hyvä minä. Voisi tehdä nämä oikein joku päivä kun kerkeää
+![image](https://user-images.githubusercontent.com/129611461/234343316-81ef1b0a-1eb8-4868-b2c9-60e527101b28.png)
+
+Muokkasin sls tiedostoa lisäämällä sinne micron.
+
+![image](https://user-images.githubusercontent.com/129611461/234343745-99fb47f8-892d-4cba-868f-20eb2ec31ed1.png)
+
+Puskin sen orjille.
+
+![image](https://user-images.githubusercontent.com/129611461/234343639-ca792d42-d08d-434e-9f66-73eef68ee8ec.png)
+
+Yhdistin seuraavaksi orjalle t001 katsomaan toimiiko micro. Heti alussa kirjoitamalla ei toimi micro joten katsotaan onko se edes koneella. whereis micro osaa kertoa että kyllä on. Menen kansioon missä se on ja yritän uudestaan ei mitään mutta ./micro komennolla se aukeaa? Mielenkiintoista en tiedä mistä johtuu.
+
+![image](https://user-images.githubusercontent.com/129611461/234344893-3167aab8-a5fc-4959-be98-ab0cc5c5ed0b.png)
+
+![image](https://user-images.githubusercontent.com/129611461/234344524-010f0693-4566-4284-ae14-5b0af20cbe5e.png)
+
 
 # Lähteet:
 
