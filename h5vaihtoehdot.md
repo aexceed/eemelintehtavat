@@ -60,3 +60,13 @@ Sama versio, loppui ymmärrys ja seuraavia tehtäviä katsottuani totean ettäh�
 Nyt loppui vähän luetun ymmärtäminen että mitä tässä halutaan tehdä
 
 ![image](https://user-images.githubusercontent.com/129611461/235319035-7996766b-7c46-407a-b865-808a08d77076.png)
+
+# Lähteet
+
+https://pseppanen296518693.wordpress.com/
+
+https://johanlindell.fi/palvelintenhallinta#h6
+
+https://terokarvinen.com/2018/control-windows-with-salt/
+
+
