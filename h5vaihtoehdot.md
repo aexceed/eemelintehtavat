@@ -52,14 +52,20 @@ Ei kuulu mitään, käynnistin windows koneen uudestaan ja siltikään ei kuulu 
 
 ![image](https://user-images.githubusercontent.com/129611461/235319501-6e51f2da-47a1-4ee1-908d-f459a84ba140.png)
 
-Sama versio, loppui ymmärrys ja seuraavia tehtäviä katsottuani totean ettähän ei tässä pääse eteenpäin ennenkuin saa yhteyden. Aika lopettaa tältä päivältä taas ettei mene tunteisiin kun kone ei tottele. Klo 22.10
+Sama versio, loppui ymmärrys ja seuraavia tehtäviä katsottuani totean ettähän ei tässä pääse eteenpäin ennenkuin saa yhteyden. Aika lopettaa tältä päivältä. Klo 22.10
 
+Päivä 2. Aloitus 13.30 
+Ruvetaan selvittämään miksi ei toimi. Ensimmäisenä tuli mieleen että ehkä asensin jotenkin väärin salt mionionin joten kävin asentamassa uudestaan nimellä winslave. Ei auttanut asiaa vaikka avaimen sai hyväksyttyä. Sitten tuli mieleen hetken googlailtua että ehkä vika on palomuurissa koska windows joten menin laittamaan kaikki palomuurit pois päältä mikä nyt ei sinänsä ole suositeltavaa. Testailua:
 
-# b)
+![image](https://user-images.githubusercontent.com/129611461/235666416-acfd9a85-e6e6-485f-b158-bdbcc7a7cefc.png)
 
-Nyt loppui vähän luetun ymmärtäminen että mitä tässä halutaan tehdä
+Eipä toimi. Testaillaan jotain lauseita minionilla mitä saltin sivuilta löytyi. Tuntuu tulostavan kaikennäköistä tekstiä mutta en saa langasta kiinni.
 
-![image](https://user-images.githubusercontent.com/129611461/235319035-7996766b-7c46-407a-b865-808a08d77076.png)
+![image](https://user-images.githubusercontent.com/129611461/235668130-be2d370e-3e13-4679-9c4d-9fb2b7f46bfc.png)
+
+![image](https://user-images.githubusercontent.com/129611461/235671648-f79ea692-0569-4cba-8d76-f89d2b1b7a98.png)
+
+En ymmärrä. Palautan taas keskeneräisenä ja jatketaan illalla vielä uudestaan. Klo 16.00
 
 # Lähteet
 
