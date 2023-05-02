@@ -67,6 +67,8 @@ Eipä toimi. Testaillaan jotain lauseita minionilla mitä saltin sivuilta löyty
 
 En ymmärrä. Palautan taas keskeneräisenä ja jatketaan illalla vielä uudestaan. Klo 16.00
 
+Vastauksia taas katsottuani totean että jaa nämä piti tehdä paikallisesti vaan koneella eikä masterilla ollut mitään väliä. Lukihäiriö taas iskenyt pahasti.
+
 # Lähteet
 
 https://pseppanen296518693.wordpress.com/
