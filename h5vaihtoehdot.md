@@ -106,6 +106,7 @@ Komento meni läpi muutaman sadan rivin varoituksen kanssa koska jotain juttua e
 
 Ja firefox on ilmestynyt jopa aivan itsestään alapalkkiin.
 
+Lopetus 14.40
 
 # Lähteet
 
