@@ -12,6 +12,12 @@ RAM: 16 gt
 
 # Puolikas
 
+Tarkoitus: en ole keksinyt.
+
 Nyt ei kyllä luovuus kuki sitten yhtään.
 
+Valmius: Alpha
+
 # Lähteet:
+
+https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/
