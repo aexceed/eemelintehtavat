@@ -69,6 +69,44 @@ En ymmärrä. Palautan taas keskeneräisenä ja jatketaan illalla vielä uudesta
 
 Vastauksia taas katsottuani totean että jaa nämä piti tehdä paikallisesti vaan koneella eikä masterilla ollut mitään väliä. Lukihäiriö taas iskenyt pahasti.
 
+# b)
+
+Uusi yritys, aloitus 13.40. Valitsin kyselyksi perus kuka minä olen joka toimii näin ja antaa tälläisen tuloksen:
+
+![image](https://user-images.githubusercontent.com/129611461/236619525-16b31fbf-4759-44fe-856e-30d7a7762f6a.png)
+
+Lopputulos kertoo että olen testi versio windowsista minkä latasin ekassa tehtävässä ja sillä virtuaalikoneella sisällä käyttäjänä user. Samalla tuli myös testattua että saltti komento toimii elikkä olen sittenkin onnistuneesti ladannut salt-minionin koneelle.
+
+# c)
+
+Loin uuden kansion system32 juureen nimeltä testi. Loin sen komennolla mkdir testi. Seuraavaksi haluan kansioon sisälle hello.txt tiedoston ja luon sen sinne state.single file.managed avulla.
+
+![image](https://user-images.githubusercontent.com/129611461/236619975-c353a111-4414-45d5-961a-dfc568efdf6a.png)
+
+Erroria pukkaa mutta sitten tajusin että ehkä se haluaakin sijaintiin koko osoitteen joten testataan se.
+
+![image](https://user-images.githubusercontent.com/129611461/236620005-48342275-bbec-42ce-896a-3a4941e129ed.png)
+
+Tadaa se toimii. Käydään vielä katsomassa ettei windows huijaa.
+
+![image](https://user-images.githubusercontent.com/129611461/236620176-ad009466-2c55-4bbb-8cbc-b724a2235826.png)
+
+# d)
+Päätin käyttää tähän tehtävään salt winrepoa. Latasin gitin koneelle ihan selaimen kautta.
+
+![image](https://user-images.githubusercontent.com/129611461/236621428-fb24bcf9-2135-4ab7-a636-95b602ee2380.png)
+
+Kloonasin vakio winrepon githubista. Päivitin sen databasen. Seuraavaksi haluan asentaa firefoxin koneelle. Ensimmäisestä komennosta puuttui --local välistä niin meni komentokehoite aivan solmuun mutta siitä selvittiin näppäimistö hakkaamalla läpi, tai kuten windows sanoo "exiting gracefully on  Ctrl-C".
+
+![image](https://user-images.githubusercontent.com/129611461/236621616-6296bb28-8600-4d37-852e-abdd70c4f5ed.png)
+
+Komento meni läpi muutaman sadan rivin varoituksen kanssa koska jotain juttua ei noudatettu.
+
+![image](https://user-images.githubusercontent.com/129611461/236621745-8332a1c2-2e8b-43fe-906c-d81943c4a387.png)
+
+Ja firefox on ilmestynyt jopa aivan itsestään alapalkkiin.
+
+
 # Lähteet
 
 https://pseppanen296518693.wordpress.com/
@@ -76,5 +114,11 @@ https://pseppanen296518693.wordpress.com/
 https://johanlindell.fi/palvelintenhallinta#h6
 
 https://terokarvinen.com/2018/control-windows-with-salt/
+
+https://github.com/R01-P4R/Palvelinten-Hallinta-2023-kev-t/blob/main/H5.md 
+
+https://github.com/JuhoTuovinen/linux-course/blob/main/h5-Vaihtoehdot.md
+
+https://docs.saltproject.io/en/latest/topics/windows/windows-package-manager.html
 
 
