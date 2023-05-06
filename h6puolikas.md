@@ -10,4 +10,8 @@ Näyttis: Intel Iris Xe integroitu
 
 RAM: 16 gt
 
+# Puolikas
+
+Nyt ei kyllä luovuus kuki sitten yhtään.
+
 # Lähteet:
