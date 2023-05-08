@@ -12,7 +12,7 @@ RAM: 16 gt
 
 # Puolikas
 
-Ensimmäisenä ideana tuli mieleen komentaa montaa eri käyttöjärjestelmää ja sitä lähdetään työstämään. Aikaisemmassa tehtävässä h5 yhteys ei toiminut oikein windowsiin mutta ehkäpä tällä kertaa sekin saadaan korjattua. Ensin tutkitaan nettiä mitenkä tämä käytännössä toimii ja vagrantfilen kirjoittelua. Heti löytyi stackoverflowsta mallia mitenkä saada kaksi joten lähdetään tätä soveltamaan useampaan.
+Ensimmäisenä ideana tuli mieleen komentaa montaa eri käyttöjärjestelmää ja sitä lähdetään työstämään. Aikaisemmassa tehtävässä h5 yhteys ei toiminut oikein windowsiin mutta ehkäpä tällä kertaa sekin saadaan korjattua. Ensin tutkitaan nettiä mitenkä tämä käytännössä toimii ja vagrantfilen kirjoittelua sekä riittääkö oma osaaminen.
 
 
 
