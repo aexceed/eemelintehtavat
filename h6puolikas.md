@@ -84,8 +84,11 @@ Siellähän se. Aluksi piti käydä powershellistä uudelleenkäynnistämässä 
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/c105613b-db29-42f5-81a3-791ff36b1f42)
 
-Hyvää edistystä kun windowsitkin on saatu vastaamaan test.ping komentoon.
+Hyvää edistystä kun windowsitkin on saatu vastaamaan test.ping komentoon. Samalla tuli mieleen testata ssh yhteyttä windowseihin onkohan sekin mahdollista. Testataan ./vagrant ssh windowsserver.
 
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/f25b8fa4-e090-4c4a-8e78-c6cca71dafb9)
+
+Aika uskomatonta, sinnekin on nyt sisään päästy ssh yhteydellä.
 
 Valmius: Alpha
 
