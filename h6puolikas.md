@@ -72,7 +72,11 @@ En tiedä mitenkä tuo on mahdollista kun ubuntu servin kohdalla vagrantfilessä
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/5464aae4-d12c-46bc-b245-dea713a7f2be)
 
-Tuli kauhea lista timeout erroria jota en nyt lähde selvittämään vaan mennään master koneelle taas tutkimaan työn jälkeä.
+Tuli kauhea lista timeout erroria jota en nyt lähde selvittämään vaan mennään master koneelle taas tutkimaan työn jälkeä ja katsomaan olisiko siellä mahdollisesti lisää avaimia hyväksyttäväksi.
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/97fa44a7-8268-47cd-a44c-9c596d743edb)
+
+Mielenkiintoista. Käynnissä olevista servereistä ei ole tietoakaan. Sitten iskikin vuosisadan idea että menen koneille sisään virtualboxin kautta ja lataan niille manuaalisesti salt-minionin ja yhdistän ne masteriini.
 Valmius: Alpha
 
 # Lähteet:
