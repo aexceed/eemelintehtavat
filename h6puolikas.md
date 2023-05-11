@@ -26,7 +26,7 @@ Tälläisessä muodossa lähdetään testaamaan, Vagrant configure kohdassa pä�
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/4a5f7cd9-3910-409f-a753-e40306a8c1ed)
 
-Debian siis onnistui, ei nyt tullut ensimmäisenä kokeillusta vagrantfilestä otettua kuvaa mutta muutama rivi oli väärällä paikalla ja väärinpäin, ne muutettua rupesi toimimaan. Rivit jotka olivat väärinpäin oli config.vm.box ja config.vm.define. Seuraavaksi kokeillaan lisätä toiseksi tutuin käyttis eli ubuntu, muutin rakenteen myös samaan muotoon ja ./vagrant up komentoa kokeilemaan.
+Debian siis onnistui, ei nyt tullut ensimmäisenä kokeillusta vagrantfilestä otettua kuvaa mutta muutama rivi oli väärällä paikalla ja väärinpäin, ne muutettua rupesi toimimaan. Rivit jotka olivat väärinpäin oli config.vm.box ja config.vm.define. Seuraavaksi kokeillaan lisätä toiseksi tutuin käyttöjärjestelmä eli ubuntu, muutin rakenteen myös samaan muotoon ja ./vagrant up komentoa kokeilemaan.
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/3c56d450-b539-4bca-838c-468ebf638f70)
 
@@ -42,8 +42,17 @@ Koneet käynnistyivät, kirjaudutaan emasterille ./vagrant ssh emaster. Koneelle
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/b279886c-51e3-4750-ac81-d605b45801ff)
 
-Olen ehkä itsekkin hieman yllättynyt että siellä oli ja ne hyväksyivät sekä test.ping toimi.
+Olen ehkä itsekkin hieman yllättynyt että avaimet löytyivät, hyväksyin ne ja testasin yhteyttä test.ping mikä osoittautui onnistuneeksi. Seuraavaksi yritetään lisätä vielä jotain haastavampaa ja kokeillaan jos saisi Windowsin ja Windows serverin lisättyä. Ubuntu serverinkin voi poimia matkalla mukaan jos löytyy. 
 
+Netistä löytyi tietenkin hyvä syntaxi sivu itse vagrantilta (kuka olisi uskonut) mistä saa nämä käyttöjärjestelmien ns. "nimet". Sieltä mukaan sain kaikki kolme ja lisäsin ne vagrantfileen.
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/fef442d2-13c7-49ad-bd46-3d67a858b456)
+
+Seuraavaksi käynnistellään taas ./vagrant up komennolla. Ensimmäisellä kerralla vähän yskii eilisen onnistuiden koneiden käynnistämiset. Koneet käynnistyvät yksi kerrallaan ja antaa timeouttia aina uuden kohdalla. Voi olla että tässä kohtaa läppärin tehot ja muisti ovat aika koetuksella jo. Ihan mielenkiintoista mitenkä se hakee netistä näitä käyttöjärjestelmiä jotka ovat muiden kuin itse niiden tekijöiden niin sanotussa jaossa. 
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/1d65e627-5d59-4a52-b485-ba07881139ca)
+
+Ubuntu serveri 
 Valmius: Alpha
 
 # Lähteet:
@@ -51,3 +60,5 @@ Valmius: Alpha
 https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/
 
 https://stackoverflow.com/questions/60940227/two-operating-systems-in-a-single-vagrantfile
+
+https://app.vagrantup.com/boxes/search
