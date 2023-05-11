@@ -14,11 +14,11 @@ RAM: 16 gt
 
 Ensimmäisenä ideana tuli mieleen komentaa montaa eri käyttöjärjestelmää ja sitä lähdetään työstämään. Aikaisemmassa tehtävässä h5 yhteys ei toiminut oikein windowsiin mutta ehkäpä tällä kertaa sekin saadaan korjattua. Ensin tutkitaan nettiä mitenkä tämä käytännössä toimii ja vagrantfilen kirjoittelua sekä riittääkö oma osaaminen.
 
-Alkuun olisi tavoitteena että masteri on ubuntu joka hallitsee centos, debian ja ubuntu koneita. Muuttelin vähän vagrantfileä ja koitin käynnistellä mutta eipä oikein tykännyt.
+Alkuun olisi tavoitteena että masteri on ubuntu joka hallitsee centos, debian ja ubuntu koneita. Muuttelin vähän vagrantfileä ja koitin käynnistellä mutta eipä oikein tykännyt. Unohtui tähän kohtaan ottaa kuva vagrantfilestä mutta pohjana toimi aikaisemissa tehtävissä käytetty tiedosto jota oli muutettu.
 
 ![image](https://user-images.githubusercontent.com/129611461/236854571-5fbc023d-3a90-4402-9b6f-8546b1c3649e.png)
 
-Palataan takas perusteisiin elikkä yksi kerrallaan. Vagrantfilestä kommentoin pois kaiken paitsi yhden koneen ja aloitetaan debianista mikä on saatu joskus toimimaan. Laiskana ihmisenähän teen tämän samaan saltdemo kansioon kuin kurssilla tarvitut master + 2 orjaa on tehty.
+Palataan takas perusteisiin elikkä yksi kerrallaan kuten Tero tunnilla hyvin neuvoi ja palautti mieleen vanhoja oppeja. Vagrantfilestä kommentoin pois kaiken paitsi yhden koneen ja aloitetaan debianista mikä on saatu joskus toimimaan. Laiskana ihmisenähän teen tämän samaan saltdemo kansioon kuin kurssilla tarvitut master + 2 orjaa on tehty.
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/33950e9b-12f5-4076-adab-2ab8a452e495)
 
