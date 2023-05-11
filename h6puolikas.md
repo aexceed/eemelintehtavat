@@ -76,7 +76,17 @@ Tuli kauhea lista timeout erroria jota en nyt lähde selvittämään vaan mennä
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/97fa44a7-8268-47cd-a44c-9c596d743edb)
 
-Mielenkiintoista. Käynnissä olevista servereistä ei ole tietoakaan. Sitten iskikin vuosisadan idea että menen koneille sisään virtualboxin kautta ja lataan niille manuaalisesti salt-minionin ja yhdistän ne masteriini.
+Mielenkiintoista. Käynnissä olevista servereistä ei ole tietoakaan. Sitten iskikin vuosisadan idea että menen koneille sisään virtualboxin kautta ja lataan niille manuaalisesti salt-minionin ja yhdistän ne masteriini. Tehty ja testataan löytyykö avainta:
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/81adc983-6064-41ee-9551-33d444bba918)
+
+Siellähän se. Aluksi piti käydä powershellistä uudelleenkäynnistämässä salt-minioni jotta avain tuli näkyviin. Lisätään myös windows serveri joka näyttää olevan myös normaali windows 10? Jotain on nyt mennyt pieleen enkä ole ihan varma että mitä mutta jos windowsin lisääminen nyt salt-minioniksi toimii ja saan niihin yhteyden niin olen erittäin tyytyväinen.
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/c105613b-db29-42f5-81a3-791ff36b1f42)
+
+Hyvää edistystä kun windowsitkin on saatu vastaamaan test.ping komentoon.
+
+
 Valmius: Alpha
 
 # Lähteet:
