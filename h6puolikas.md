@@ -61,6 +61,8 @@ Hetken mietittyäni tajuan että vagrantfilen alussa annetut komennothan ovat va
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/91bdb5f7-ba1d-4843-ac01-bd1c44eab67a)
 
 Sitten vaan googlamaaan virhettä.
+
+Tässä kohtaa täytyy sanoa että pitkään työskenneltyä oli unohtunut committaa ja olin antanut läppärin näytön sammua niin oli kadonnut melkein kaikki päivän aikana kirjoittamani teksti joten saattaa olla vähän ei niin johdonmukaisesti kirjoitettua.
 Valmius: Alpha
 
 # Lähteet:
