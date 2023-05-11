@@ -52,7 +52,15 @@ Seuraavaksi käynnistellään taas ./vagrant up komennolla. Ensimmäisellä kerr
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/1d65e627-5d59-4a52-b485-ba07881139ca)
 
-Ubuntu serveri 
+Ubuntu serveri löytyi ja asentui mutta windows serverin kohdalla lakkaa toimimasta. Seuraavanlaista erroria pukkaa:
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/17e39000-6ec2-4aec-aca0-4e23a31494fc)
+
+Hetken mietittyäni tajuan että vagrantfilen alussa annetut komennothan ovat vain toimia linux pohjaisilla käyttöjärjestelmillä ja tarvitsisin omanlaisen windows koneille. Ajan sen vielä uudestaan ja nyt se ottaa Windows 10 mukaan kanssa mutta siinä tuleekin toinen virhe ilmoitus ja kone timeouttaa hetken ajan odotettuaan vastausta seuraavaan kohtaan:
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/91bdb5f7-ba1d-4843-ac01-bd1c44eab67a)
+
+Sitten vaan googlamaaan virhettä.
 Valmius: Alpha
 
 # Lähteet:
