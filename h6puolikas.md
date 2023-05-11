@@ -56,13 +56,23 @@ Ubuntu serveri löytyi ja asentui mutta windows serverin kohdalla lakkaa toimima
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/17e39000-6ec2-4aec-aca0-4e23a31494fc)
 
-Hetken mietittyäni tajuan että vagrantfilen alussa annetut komennothan ovat vain toimia linux pohjaisilla käyttöjärjestelmillä ja tarvitsisin omanlaisen windows koneille. Ajan sen vielä uudestaan ja nyt se ottaa Windows 10 mukaan kanssa mutta siinä tuleekin toinen virhe ilmoitus ja kone timeouttaa hetken ajan odotettuaan vastausta seuraavaan kohtaan:
+Hetken mietittyäni tajuan että vagrantfilen alussa annetut komennothan voivat toimia vain linux pohjaisilla käyttöjärjestelmillä ja tarvitsisin omanlaisen windows koneille. Ajan sen vielä uudestaan ja nyt se ottaa Windows 10 mukaan, mutta siinä tuleekin toinen virhe ilmoitus ja kone timeouttaa hetken ajan odotettuaan vastausta seuraavaan kohtaan:
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/91bdb5f7-ba1d-4843-ac01-bd1c44eab67a)
 
 Sitten vaan googlamaaan virhettä.
 
-Tässä kohtaa täytyy sanoa että pitkään työskenneltyä oli unohtunut committaa ja olin antanut läppärin näytön sammua niin oli kadonnut melkein kaikki päivän aikana kirjoittamani teksti joten saattaa olla vähän ei niin johdonmukaisesti kirjoitettua.
+Tässä kohtaa täytyy sanoa että pitkään työskenneltyä oli unohtunut committaa ja olin antanut läppärin näytön sammua niin oli kadonnut melkein kaikki päivän aikana kirjoittamani teksti joten saattaa olla vähän ei niin johdonmukaisesti kirjoitettua. 
+
+Virheitä tutkittuani ja uutta virhe ilmoitusta odotellessa huomaan virtualboxissa että hetkinen, ubuntuserveri koneeni näyttää aivan Windowsilta??
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/8375f3b5-4e16-4812-b35a-aadc1f4fc887)
+
+En tiedä mitenkä tuo on mahdollista kun ubuntu servin kohdalla vagrantfilessä on ubuntu/trusty64. Nyt ubuntu server(windows??) ja windows server olivat käynnistyneet mutta windows 10 ei.
+
+![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/5464aae4-d12c-46bc-b245-dea713a7f2be)
+
+Tuli kauhea lista timeout erroria jota en nyt lähde selvittämään vaan mennään master koneelle taas tutkimaan työn jälkeä.
 Valmius: Alpha
 
 # Lähteet:
