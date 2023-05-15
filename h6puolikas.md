@@ -94,10 +94,8 @@ Aika uskomatonta, sinnekin on nyt sisään päästy ssh yhteydellä. Loppujen lo
 
 # Yhteenveto
 
-Tavoitteena oli hallita eri käyttöjärjestelmiä, lähinnä windows ja linux pohjaisia. Tehtävä ei vaativuudeltaa ollut vaativimmasta päästä mutta aikaa siihen sai kulumaan kyllä aivan liian paljon. Koneiden lataamisessa kesti käynnistysten välissä ikuisuuksia ja välillä vain saman virhe ilmoituksen takia joka sitten katosikin seuraavalla käynnistyksellä. Esim. ubuntuserveriä joka paljastui windowsiksi ladatessa mietin jo muutaman kerran että mitähän tässä nyt tapahtuu, kone sattui lataaman konetta lähemmäs kaksi tuntia koska kannettavan tietokoneen langaton nettiyhteys on aivan säälittävällä tasolla. En varsinaisesti saavuttanut tavoitettani
+Tavoitteena oli hallita eri käyttöjärjestelmiä, lähinnä windows ja linux pohjaisia. Tehtävä ei vaativuudeltaa ollut vaativimmasta päästä mutta aikaa siihen sai kulumaan kyllä aivan liian paljon. Koneiden lataamisessa kesti käynnistysten välissä ikuisuuksia ja välillä vain saman virhe ilmoituksen takia joka sitten katosikin seuraavalla käynnistyksellä. Esim. ubuntuserveriä joka paljastui windowsiksi ladatessa mietin jo muutaman kerran että mitähän tässä nyt tapahtuu, läppäri sattui lataaman konetta lähemmäs kaksi tuntia. En varsinaisesti saavuttanut tavoitettani mutta pääsin tarpeeksi lähelle toimivien koneiden määrässä sekä sain windows minionin tottelemaan komentoja joten olen tyytyväinen lopputulokseen. 
 
-
-Valmius: Valmis
 
 # Lähteet:
 
@@ -108,3 +106,9 @@ https://stackoverflow.com/questions/60940227/two-operating-systems-in-a-single-v
 https://app.vagrantup.com/boxes/search
 
 https://terokarvinen.com/2023/salt-vagrant/
+
+https://docs.saltproject.io/en/latest/topics/cloud/vagrant.html
+
+https://joachim8675309.medium.com/vagrant-provisioning-with-saltstack-50dab12ce6c7
+
+https://manski.net/2016/09/vagrant-multi-machine-tutorial/
