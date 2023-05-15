@@ -92,6 +92,8 @@ Hyvää edistystä kun windowsitkin on saatu vastaamaan test.ping komentoon. Sam
 
 Aika uskomatonta, sinnekin on nyt sisään päästy ssh yhteydellä. Loppujen lopuksi en tarvinnutkaan mitään erillisiä komentoja windowsille että saan komenettua niitä masteri koneella. Tässä kohtaa täytyy lopettaa tähän ja tyytyä mihin asti on päästy koska aika loppuu kesken.
 
+Vagrantfile jota työssä käytettiin löytyy juuresta.
+
 # Yhteenveto
 
 Tavoitteena oli hallita eri käyttöjärjestelmiä, lähinnä windows ja linux pohjaisia. Tehtävä ei vaativuudeltaa ollut vaativimmasta päästä mutta aikaa siihen sai kulumaan kyllä aivan liian paljon. Koneiden lataamisessa kesti käynnistysten välissä ikuisuuksia ja välillä vain saman virhe ilmoituksen takia joka sitten katosikin seuraavalla käynnistyksellä. Esim. ubuntuserveriä joka paljastui windowsiksi ladatessa mietin jo muutaman kerran että mitähän tässä nyt tapahtuu, läppäri sattui lataaman konetta lähemmäs kaksi tuntia. En varsinaisesti saavuttanut tavoitettani mutta pääsin tarpeeksi lähelle toimivien koneiden määrässä sekä sain windows minionin tottelemaan komentoja joten olen tyytyväinen lopputulokseen. 
