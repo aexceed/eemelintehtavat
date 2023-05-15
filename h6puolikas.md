@@ -14,7 +14,9 @@ RAM: 16 gt
 
 Ensimmäisenä ideana tuli mieleen komentaa montaa eri käyttöjärjestelmää ja sitä lähdetään työstämään. Aikaisemmassa tehtävässä h5 yhteys ei toiminut oikein windowsiin mutta ehkäpä tällä kertaa sekin saadaan korjattua. Ensin tutkitaan nettiä mitenkä tämä käytännössä toimii ja vagrantfilen kirjoittelua sekä riittääkö oma osaaminen.
 
-Alkuun olisi tavoitteena että masteri on ubuntu joka hallitsee centos, debian ja ubuntu koneita. Muuttelin vähän vagrantfileä ja koitin käynnistellä mutta eipä oikein tykännyt. Unohtui tähän kohtaan ottaa kuva vagrantfilestä mutta pohjana toimi aikaisemissa tehtävissä käytetty tiedosto jota oli muutettu.
+Alkuun olisi tavoitteena että masteri on ubuntu joka hallitsee centos, debian ja ubuntu koneita. Sen jälkeen kun ne on saatu toimimaan olisi tavoitteena lisätä Windowsia ja ehkä muutama serveri. 
+
+Muuttelin alkuun vähän vagrantfileä soveltamalla netistä löytyneitä tietoja ja koitin käynnistellä mutta eipä oikein tykännyt. Unohtui tähän kohtaan ottaa kuva vagrantfilestä mutta pohjana toimi aikaisemissa tehtävissä käytetty Teron tiedosto jota oli muuteltu hieman.
 
 ![image](https://user-images.githubusercontent.com/129611461/236854571-5fbc023d-3a90-4402-9b6f-8546b1c3649e.png)
 
@@ -76,7 +78,7 @@ Tuli kauhea lista timeout erroria jota en nyt lähde selvittämään vaan mennä
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/97fa44a7-8268-47cd-a44c-9c596d743edb)
 
-Mielenkiintoista. Käynnissä olevista servereistä ei ole tietoakaan. Sitten iskikin vuosisadan idea että menen koneille sisään virtualboxin kautta ja lataan niille manuaalisesti salt-minionin ja yhdistän ne masteriini. Tehty ja testataan löytyykö avainta:
+Mielenkiintoista. Käynnissä olevista servereistä ei ole tietoakaan. Sitten iskikin vuosisadan idea että menen koneille sisään virtualboxin kautta ja lataan niille manuaalisesti salt-minionin ja yhdistän ne masteriini. Avasin koneet virtualboxista ja menin selaimen kautta saltin sivuille lataamaan windows minionin. Asensin sen ja kerroin masterin ip:n. Tehty ja testataan löytyykö avainta:
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/81adc983-6064-41ee-9551-33d444bba918)
 
@@ -88,9 +90,14 @@ Hyvää edistystä kun windowsitkin on saatu vastaamaan test.ping komentoon. Sam
 
 ![image](https://github.com/aexceed/eemelintehtavat/assets/129611461/f25b8fa4-e090-4c4a-8e78-c6cca71dafb9)
 
-Aika uskomatonta, sinnekin on nyt sisään päästy ssh yhteydellä.
+Aika uskomatonta, sinnekin on nyt sisään päästy ssh yhteydellä. Loppujen lopuksi en tarvinnutkaan mitään erillisiä komentoja windowsille että saan komenettua niitä masteri koneella. Tässä kohtaa täytyy lopettaa tähän ja tyytyä mihin asti on päästy koska aika loppuu kesken.
 
-Valmius: Alpha
+# Yhteenveto
+
+Tavoitteena oli hallita eri käyttöjärjestelmiä, lähinnä windows ja linux pohjaisia. Tehtävä ei vaativuudeltaa ollut vaativimmasta päästä mutta aikaa siihen sai kulumaan kyllä aivan liian paljon. Koneiden lataamisessa kesti käynnistysten välissä ikuisuuksia ja välillä vain saman virhe ilmoituksen takia joka sitten katosikin seuraavalla käynnistyksellä. Esim. ubuntuserveriä joka paljastui windowsiksi ladatessa mietin jo muutaman kerran että mitähän tässä nyt tapahtuu, kone sattui lataaman konetta lähemmäs kaksi tuntia koska kannettavan tietokoneen langaton nettiyhteys on aivan säälittävällä tasolla. En varsinaisesti saavuttanut tavoitettani
+
+
+Valmius: Valmis
 
 # Lähteet:
 
@@ -99,3 +106,5 @@ https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/
 https://stackoverflow.com/questions/60940227/two-operating-systems-in-a-single-vagrantfile
 
 https://app.vagrantup.com/boxes/search
+
+https://terokarvinen.com/2023/salt-vagrant/
