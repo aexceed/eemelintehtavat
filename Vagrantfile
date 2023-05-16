@@ -16,7 +16,6 @@ MASTER
 Vagrant.configure("2") do |config|
 	config.vm.box = "debian/bullseye64"
 	config.vm.define "debian" do |debian|
-		
 		debian.vm.provision :shell, inline: $minion
 		debian.vm.network "private_network", ip: "192.168.12.100"
 		debian.vm.hostname = "debian"
@@ -31,9 +30,9 @@ Vagrant.configure("2") do |config|
 	
 	config.vm.box = "centos/7"
 	config.vm.define "centos" do |centos|
-			centos.vm.provision :shell, inline: $minion
-			centos.vm.network "private_network", ip: "192.168.12.104"
-			centos.vm.hostname = "centos"
+		centos.vm.provision :shell, inline: $minion
+		centos.vm.network "private_network", ip: "192.168.12.104"
+		centos.vm.hostname = "centos"
 	end
 	
 	config.vm.box = "ubuntu/jammy64"
